@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias checkout='git checkout'
+alias chrome='open -a Google\ Chrome'
 alias fs='foreman start -f Procfile.dev'
 alias ga='git add --all'
 alias gc='git commit -am'
