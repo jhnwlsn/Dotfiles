@@ -4,6 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 DEFAULT_USER="johnwilson"
 ZSH_THEME="bullet-train"
 BULLETTRAIN_GIT_COLORIZE_DIRTY=true
+BULLETTRAIN_GIT_EXTENDED=false
 BULLETTRAIN_PROMPT_ORDER=(
   dir  
   git
