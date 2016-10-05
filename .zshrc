@@ -2,7 +2,11 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Default Setup
 DEFAULT_USER="johnwilson"
-ZSH_THEME="agnoster"
+ZSH_THEME="bullet-train"
+BULLETTRAIN_PROMPT_ORDER=(
+  dir  
+  git
+)
 
 # Plugins
 plugins=(brew bundler chruby gem)
