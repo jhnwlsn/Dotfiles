@@ -1,20 +1,26 @@
 export ZSH=$HOME/.oh-my-zsh
 
-# Default Setup
+# ----- Default Setup ----- #
+
 DEFAULT_USER="johnwilson"
 ZSH_THEME="bullet-train"
+
+# Bullet Train Theme
 BULLETTRAIN_GIT_COLORIZE_DIRTY=true
 BULLETTRAIN_GIT_EXTENDED=false
+BULLETTRAIN_PROMPT_CHAR=→
 BULLETTRAIN_PROMPT_ORDER=(
   dir  
   git
 )
 
-# Plugins
+# ----- Plugins ----- #
+
 plugins=(brew bundler chruby gem)
 source $ZSH/oh-my-zsh.sh
 
-# Aliases
+# ----- Aliases ----- #
+
 alias checkout='git checkout'
 alias chrome='open -a Google\ Chrome'
 alias fs='foreman start -f Procfile.dev'
