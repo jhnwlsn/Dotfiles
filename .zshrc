@@ -23,6 +23,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias checkout='git checkout'
 alias chrome='open -a Google\ Chrome'
+alias customizevim="vim ~/.vimrc"
+alias customizezsh="vim ~/.zshrc"
 alias fs='foreman start -f Procfile.dev'
 alias ga='git add --all'
 alias gc='git commit -am'
@@ -31,7 +33,3 @@ alias gpush='git push'
 alias gs='git status'
 alias ll='ls -al'
 alias sp='postgres -D /usr/local/var/postgres'
-alias tlist='tmux ls'
-alias tnew='tmux new -t'
-alias topen='tmux a -t'
-alias tkill='tmux kill-session -t'
