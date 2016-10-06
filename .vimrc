@@ -10,11 +10,6 @@ call vundle#begin()
 " Required
 Plugin 'VundleVim/Vundle.vim'
 
-" User
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-
 call vundle#end()
 filetype plugin indent on
 
@@ -24,13 +19,7 @@ filetype plugin indent on
 
 " ----- Setup ----- "
 
-" Airline      
-let g:airline_detect_paste=1
-let g:airline_powerline_fonts=1
-let g:airline_theme='jellybeans'
-
 " Options
-colorscheme hybrid
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey
 set background=dark
 set backspace=indent,eol,start
