@@ -12,10 +12,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " User
 Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
-filetype plugin indent on
+filetype plugin on
 
 " ----- End Vundle ----- "
 
