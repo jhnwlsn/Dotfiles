@@ -9,11 +9,14 @@ call vundle#begin()
 
 " Required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline-themes'
 
 " User
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()
 filetype plugin on
@@ -39,22 +42,6 @@ syntax on
 " Keybindings
 map <C-\> :NERDTreeToggle<CR>
 
-" Hide Stuff
-let s:hidden_all = 0
-function! ToggleHiddenAll()
-  if s:hidden_all  == 0
-    let s:hidden_all = 1
-	  set noshowmode
-	  set noruler
-	  set laststatus=0
-	  set noshowcmd
-	else
-	  let s:hidden_all = 0
-	  set showmode
-	  set ruler
-	  set laststatus=2
-	  set showcmd
-	endif
-endfunction
-:call ToggleHiddenAll()
-nnoremap <S-h> :call ToggleHiddenAll()<CR>
+" Airline
+let g:airline_powerline_fonts=1
+let g:airline_theme='bubblegum'
