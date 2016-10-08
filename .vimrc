@@ -9,14 +9,15 @@ call vundle#begin()
 
 " Required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline-themes'
 
 " User
+Plugin 'baskerville/bubblegum'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 filetype plugin on
@@ -28,8 +29,7 @@ filetype plugin on
 " ----- Setup ----- "
 
 " Options
-highlight LineNr cterm=NONE ctermfg=DarkGrey
-set background=dark
+colorscheme bubblegum-256-dark
 set backspace=indent,eol,start
 set hlsearch
 set laststatus=2
