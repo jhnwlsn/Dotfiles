@@ -5,12 +5,9 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" -- Plugins -- "
+" Plugins
 
-" Required
 Plugin 'VundleVim/Vundle.vim'
-
-" User
 Plugin 'baskerville/bubblegum'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
@@ -22,13 +19,10 @@ Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 filetype plugin on
 
-" ----- End Vundle ----- "
-
-" -------------------- "
-
 " ----- Setup ----- "
 
 " Options
+
 colorscheme bubblegum-256-dark
 set backspace=indent,eol,start
 set hlsearch
@@ -40,8 +34,10 @@ set t_Co=256
 syntax on
 
 " Keybindings
+
 map <C-\> :NERDTreeToggle<CR>
 
 " Airline
+
 let g:airline_powerline_fonts=1
 let g:airline_theme='bubblegum'
