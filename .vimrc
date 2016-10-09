@@ -21,23 +21,24 @@ filetype plugin on
 
 " ----- Setup ----- "
 
-" Options
+" Theme
 
 colorscheme bubblegum-256-dark
+let g:airline_powerline_fonts=1
+let g:airline_theme='bubblegum'
+let g:html_indent_tags = 'li\|p'
+set laststatus=2
+set t_Co=256
+syntax on
+
+" Options
+
 set backspace=indent,eol,start
 set hlsearch
-set laststatus=2
 set number
 set softtabstop=2
 set tabstop=2
-set t_Co=256
-syntax on
 
 " Keybindings
 
 map <C-\> :NERDTreeToggle<CR>
-
-" Airline
-
-let g:airline_powerline_fonts=1
-let g:airline_theme='bubblegum'
