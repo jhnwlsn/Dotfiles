@@ -1,2 +1,11 @@
-bind c:ctrl,alt move screenOriginX+((screenSizeX-windowSizeX)/2);screenOriginY+((screenSizeY-windowSizeY)/2) windowSizeX;windowSizeY
-bind f:ctrl,alt move screenOriginX;screenOriginY screenSizeX;screenSizeY
+# Functions
+alias center move screenOriginX+((screenSizeX-windowSizeX)/2);screenOriginY+((screenSizeY-windowSizeY)/2) windowSizeX;windowSizeY
+alias full   move screenOriginX;screenOriginY screenSizeX;screenSizeY
+alias right  move screenSizeX*0.6;screenOriginY screenSizeX*0.4;screenSizeY
+alias left   move screenOriginX;screenOriginY screenSizeX*0.6;screenSizeY
+
+# Bindings
+bind c:ctrl,alt ${center} 
+bind f:ctrl,alt ${full}
+bind left:ctrl,alt ${left}
+bind right:ctrl,alt ${right}
