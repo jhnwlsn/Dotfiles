@@ -2,8 +2,8 @@
 alias browse move screenSizeX*0.2;screenOriginY screenSizeX*0.6;screenSizeY
 alias center move screenOriginX+((screenSizeX-windowSizeX)/2);screenOriginY+((screenSizeY-windowSizeY)/2) windowSizeX;windowSizeY
 alias full   move screenOriginX;screenOriginY screenSizeX;screenSizeY
-alias right  move screenSizeX*0.6;screenOriginY screenSizeX*0.4;screenSizeY
 alias left   move screenOriginX;screenOriginY screenSizeX*0.6;screenSizeY
+alias right  move screenSizeX*0.6;screenOriginY screenSizeX*0.4;screenSizeY
 alias window move screenSizeX*0.3;screenSizeY*0.25 screenSizeX*0.4;screenSizeY*0.45
 
 # Bindings
