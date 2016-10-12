@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 # ----- Aliases ----- #
 
 alias checkout='git checkout'
-alias chrome='open -a Google\ Chrome'
+alias dev='function _dev(){open -a Google\ Chrome http://localhost:$1};_dev'
 alias customizevim="vim ~/.vimrc"
 alias customizezsh="vim ~/.zshrc"
 alias fs='foreman start -f Procfile.dev'
