@@ -40,4 +40,5 @@ alias gpull='git pull --rebase'
 alias gpush='git push'
 alias gs='git status'
 alias ll='ls -al'
+alias rm=trash
 alias sp='postgres -D /usr/local/var/postgres'
