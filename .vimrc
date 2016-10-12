@@ -33,9 +33,12 @@ syntax on
 
 " Options
 
+set autoindent
 set backspace=indent,eol,start
+set expandtab
 set hlsearch
 set number
+set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
