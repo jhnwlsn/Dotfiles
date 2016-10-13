@@ -44,4 +44,5 @@ set tabstop=2
 
 " Keybindings
 
-map <C-\> :NERDTreeToggle<CR>
+let mapleader = "\<Space>"
+map <Leader>\ :NERDTreeToggle<CR>
