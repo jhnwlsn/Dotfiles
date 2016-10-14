@@ -49,3 +49,9 @@ set tabstop=2
 
 let mapleader = "\<Space>"
 map <Leader>\ :NERDTreeToggle<CR>
+
+" NERDCommenter
+
+let g:NERDCommentEmptyLines=1
+let g:NERDDefaultAlign='left'
+let g:NERDSpaceDelims=1
