@@ -49,6 +49,7 @@ set tabstop=2
 
 let mapleader = "\<Space>"
 map <Leader>\ :NERDTreeToggle<CR>
+vnoremap <F5> :sort<CR>
 
 " NERDCommenter
 
