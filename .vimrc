@@ -52,6 +52,12 @@ map <Leader>\ :NERDTreeToggle<CR>
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 vnoremap <F5> :sort<CR>
 
+" Ctrlp
+
+let g:ctrlp_custom_ignore = {
+\ 'dir': '\v[\/](.git|node_modules)$',
+\}
+
 " NERDCommenter
 
 let g:NERDCommentEmptyLines=1
