@@ -55,7 +55,7 @@ vnoremap <F5> :sort<CR>
 " Ctrlp
 
 let g:ctrlp_custom_ignore = {
-\ 'dir': '\v[\/](.git|node_modules)$',
+\ 'dir': '\v[\/](.git|build|node_modules|public)$',
 \}
 
 " NERDCommenter
