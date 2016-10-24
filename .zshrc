@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 # ----- Ruby Version ----- #
 
 source /usr/local/share/chruby/chruby.sh
-chruby ruby-2.3.1
+chruby 2.3.1
 
 # ----- Default Setup ----- #
 
