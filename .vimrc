@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'baskerville/bubblegum'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
@@ -37,10 +38,12 @@ syntax on
 
 set autoindent
 set backspace=indent,eol,start
+set clipboard=unnamed
 set cursorline
 set expandtab
 set hlsearch
 set number
+set paste
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
