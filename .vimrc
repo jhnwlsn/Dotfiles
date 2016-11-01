@@ -38,6 +38,7 @@ syntax on
 
 set autoindent
 set backspace=indent,eol,start
+set breakindent
 set clipboard=unnamed
 set cursorline
 set expandtab
