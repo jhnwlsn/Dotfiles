@@ -29,13 +29,13 @@ source $ZSH/oh-my-zsh.sh
 
 # ----- Aliases ----- #
 
-alias checkout='git checkout'
 alias dev='function _dev(){open -a Google\ Chrome http://localhost:$1};_dev'
 alias customizevim="vim ~/.vimrc"
 alias customizezsh="vim ~/.zshrc"
 alias fs='foreman start -f Procfile.dev'
 alias ga='git add --all'
 alias gc='git commit -am'
+alias gch='git checkout'
 alias gpull='git pull --rebase'
 alias gpush='git push'
 alias gs='git status'
