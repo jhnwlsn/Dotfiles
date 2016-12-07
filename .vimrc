@@ -31,6 +31,7 @@ let g:airline_powerline_fonts=1
 let g:airline_theme='bubblegum'
 let g:html_indent_tags = 'li\|p'
 set laststatus=2
+let NERDTreeShowHidden=1
 set t_Co=256
 syntax on
 
