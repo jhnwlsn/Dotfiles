@@ -44,9 +44,11 @@ set clipboard=unnamed
 set cursorline
 set expandtab
 set hlsearch
+set list listchars=tab:»\ ,trail:·
 set number
 set paste
 set shiftwidth=2
+set smarttab
 set softtabstop=2
 set tabstop=2
 
