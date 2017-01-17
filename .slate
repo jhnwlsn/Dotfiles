@@ -4,7 +4,7 @@ alias center move screenOriginX+((screenSizeX-windowSizeX)/2);screenOriginY+((sc
 alias full   move screenOriginX;screenOriginY screenSizeX;screenSizeY
 alias left   move screenOriginX;screenOriginY screenSizeX*0.6;screenSizeY
 alias right  move screenSizeX*0.6;screenOriginY screenSizeX*0.4;screenSizeY
-alias window move screenSizeX*0.25;screenSizeY*0.25 screenSizeX*0.5;screenSizeY*0.6
+alias window move screenSizeX*0.175;screenSizeY*0.125 screenSizeX*0.65;screenSizeY*0.75
 
 # Bindings
 bind c:ctrl,alt ${center} 
